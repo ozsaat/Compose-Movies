@@ -21,13 +21,13 @@ import uk.saat.composemovies.domain.model.Movie
 @Composable
 fun MovieList(movies: Movie) {
 
-    Card(
-        modifier = Modifier
-            .padding(10.dp)
-            .fillMaxWidth(),
-        elevation = 10.dp,
-        shape = RoundedCornerShape(corner = CornerSize(10.dp))
-    ) {
-        MovieCard(movie = movies)
-    }
+//    Card(
+//        modifier = Modifier
+//            .padding(10.dp)
+//            .fillMaxWidth(),
+//        elevation = 10.dp,
+//        shape = RoundedCornerShape(corner = CornerSize(10.dp))
+//    ) {
+//        MovieCard(movie = movies)
+//    }
 }

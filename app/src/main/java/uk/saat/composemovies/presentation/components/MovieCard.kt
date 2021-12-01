@@ -16,14 +16,14 @@ import uk.saat.composemovies.domain.model.Movie
 
 @Composable
 fun MovieCard(movie: Movie) {
-    Image(
-        painter = painterResource(id = movie.posterPath),
-        contentDescription = null,
-        contentScale = ContentScale.Crop,
-        modifier = Modifier
-            .padding(4.dp)
-            .height(140.dp)
-            .width(100.dp)
-            .clip(RoundedCornerShape(corner = CornerSize(10.dp)))
-        )
+//    Image(
+//        painter = painterResource(id = movie.posterPath),
+//        contentDescription = null,
+//        contentScale = ContentScale.Crop,
+//        modifier = Modifier
+//            .padding(4.dp)
+//            .height(140.dp)
+//            .width(100.dp)
+//            .clip(RoundedCornerShape(corner = CornerSize(10.dp)))
+//        )
 }
