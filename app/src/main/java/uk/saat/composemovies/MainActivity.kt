@@ -26,6 +26,7 @@ import uk.saat.composemovies.ui.theme.ComposeMoviesTheme
 
 @ExperimentalFoundationApi
 class MainActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
