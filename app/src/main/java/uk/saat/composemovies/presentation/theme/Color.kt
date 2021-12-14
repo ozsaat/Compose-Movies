@@ -1,4 +1,4 @@
-package uk.saat.composemovies.ui.theme
+package uk.saat.composemovies.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

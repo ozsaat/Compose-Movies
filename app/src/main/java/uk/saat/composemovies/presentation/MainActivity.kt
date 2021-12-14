@@ -1,18 +1,10 @@
-package uk.saat.composemovies
+package uk.saat.composemovies.presentation
 
 import android.os.Bundle
 import android.util.Log
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
 import androidx.compose.foundation.ExperimentalFoundationApi
-import androidx.compose.foundation.layout.PaddingValues
-import androidx.compose.foundation.lazy.GridCells
-import androidx.compose.foundation.lazy.LazyVerticalGrid
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.remember
-import androidx.compose.ui.unit.dp
 import com.google.gson.GsonBuilder
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
@@ -21,8 +13,6 @@ import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import uk.saat.composemovies.BuildConfig.API_KEY
 import uk.saat.composemovies.network.MovieService
-import uk.saat.composemovies.presentation.components.MovieCard
-import uk.saat.composemovies.ui.theme.ComposeMoviesTheme
 
 @ExperimentalFoundationApi
 class MainActivity : ComponentActivity() {
